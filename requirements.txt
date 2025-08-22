@@ -1,0 +1,11 @@
+Requests
+cssselect2==0.7.0
+Flask==3.0.0
+Flask-WTF==1.2.1
+fonttools==4.53.1
+html5lib==1.1
+Jinja2==3.1.2
+reportlab==4.2.2
+tinycss2==1.3.0
+webencodings==0.5.1
+Werkzeug==3.0.1
