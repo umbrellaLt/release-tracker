@@ -33,7 +33,7 @@ def fetch_releases_from_api(owner, repo, count=3):
         headers = {
             'Accept': 'application/vnd.github.v3+json',
             'User-Agent': 'GitHub-Releases-Dashboard',
-            'Authorization': 'Bearer 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'
+            'Authorization': 'Bearer XXXXXXX' # you need a a api key for a git account otherwise git is blocking requests. I created a new emty git account for this.
         }
         
         response = requests.get(api_url, headers=headers, timeout=10)
